@@ -38,7 +38,7 @@ namespace ClockDrawerNavigationbar
 
         void OnElapsed(object sender, ElapsedEventArgs e)
         {
-            timeTextView.Text = DateTime.Now.ToString("T");
+            base.Activity.RunOnUiThread(()=>timeTextView.Text = DateTime.Now.ToString("T"));
         }
     }
 }

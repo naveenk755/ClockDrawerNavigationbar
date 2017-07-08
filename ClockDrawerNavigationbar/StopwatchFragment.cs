@@ -67,7 +67,7 @@ namespace ClockDrawerNavigationbar
         void OnElapsed(object sender, ElapsedEventArgs e)
         {
             ticks = ticks.Add(TimeSpan.FromSeconds(1));
-            timeTextView.Text = ticks.ToString("g");
+            base.Activity.RunOnUiThread(()=>timeTextView.Text = ticks.ToString("g"));
         }
     }
 }

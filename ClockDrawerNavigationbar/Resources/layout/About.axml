@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:text="A clock is an instrument to measure, keep, and indicate time. The word clock is derived from the Celtic words clagan and clocca meaning 'bell'. A silent instrument missing such a striking mechanism has traditionally been known as a timepiece. In general usage today a 'clock' refers to any device for measuring and displaying the time. Watches and other timepieces that can be carried on one's person are often distinguished from clocks."
+        android:layout_margin="10dp" />
+</LinearLayout>
